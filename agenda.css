@@ -1,0 +1,29 @@
+.align-intens-center {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .table-area {
+    margin-top: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 6px;
+  }
+  
+  .table-area table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table-area td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .table-area tr:nth-child(even) {
+    background-color: #dddddd;
+  }

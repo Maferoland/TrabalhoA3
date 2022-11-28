@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PsicoClinic</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/agenda.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="./index.html">Buscar paciente</a>
+          </li>
+          <li>
+            <a href="./novo-paciente.html">Novo paciente</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="align-intens-center">
+        <div class="card-area">
+          <form action="/index.php">
+            <div class="input-group">
+              <label>Data</label>
+              <input placeholder="Digite a data" name="cellphone" type="date" />
+            </div>
+            <button class="default-button" type="submit">Buscar</button>
+          </form>
+        </div>
+        <div class="table-area">
+          <table>
+            <tr>
+              <th>Data</th>
+              <th>Nome</th>
+              <th>Telefone</th>
+              <th>CPF</th>
+            </tr>
+            <tr>
+              <td>29/11/2022 10:00</td>
+              <td>Edson Orivaldo Lessa</td>
+              <td>48 999696064</td>
+              <td>34629436855</td>
+            </tr>
+            <tr>
+              <td>29/11/2022 11:00</td>
+              <td>Jorge Werner</td>
+              <td>48 999696064</td>
+              <td>34629436855</td>
+            </tr>
+            <tr>
+              <td>29/11/2022 15:00</td>
+              <td>Saulo Popov Zambias</td>
+              <td>48 999696064</td>
+              <td>34629436855</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <img src="./assets/imagens/psicologa.jpg" alt="" />
+      <p>Psicóloga</p>
+    </footer>
+  </body>
+</html>

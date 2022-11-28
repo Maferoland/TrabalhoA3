@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PsicoClinic</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/novo-paciente.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="./agenda.html">Agenda</a>
+          </li>
+          <li>
+            <a href="./index.html">Buscar paciente</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="align-intens-center">
+        <div class="card-area">
+          <form action="/index.php">
+            <div class="input-group">
+              <label>Nome</label>
+              <input placeholder="Digite o Nome" name="name" />
+            </div>
+            <div class="input-group">
+              <label>E-mail</label>
+              <input placeholder="Digite o email" type="email" name="email" />
+            </div>
+            <div class="input-group">
+              <label>CPF</label>
+              <input placeholder="Digite o CPF" name="cpf" />
+            </div>
+            <div class="input-group">
+              <label>Telefone</label>
+              <input placeholder="Digite o telefone" name="cellphone" />
+            </div>
+            <button class="default-button" type="submit">Cadastrar</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <img src="./assets/imagens/psicologa.jpg" alt="" />
+      <p>Psicóloga</p>
+    </footer>
+  </body>
+</html>
